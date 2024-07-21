@@ -4,9 +4,9 @@ import Link from "next/link";
 import React from "react";
 import { ThemeToggle } from "@/components/themeToggle";
 import { motion } from 'framer-motion';
+import { Url } from "@/lib/content";
 
 const Header = () => {
-  const Url = "http://localhost:3000"
 
   return (
     <motion.div 

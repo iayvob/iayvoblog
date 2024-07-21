@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider as NextThemesProvider } from "next-themes"
 import Header from "@/components/header";
@@ -7,7 +6,7 @@ import Footer from "@/components/footer";
 
 
 export const metadata: Metadata = {
-  title: "iayvoblog | Personal Bolg",
+  title: "iayvoblog",
   description:
     "Where i Post documentations about my learning journey, and also experiences that I encounter during the work",
 };

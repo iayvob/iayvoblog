@@ -56,3 +56,5 @@ export const content = [
         index: 7,
     },
 ];
+
+export const Url = "https://iayvoblog.vercel.app"
