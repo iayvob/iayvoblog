@@ -24,7 +24,7 @@ export default function Docs() {
   return (
     <div>
       <motion.div
-        className="w-[100%] flex flex-col sm:flex-row flex-wrap sm:gap-16 gap-y-16 justify-center xl:-mt-24 -mt-56"
+        className="w-[100%] flex flex-col sm:flex-row flex-wrap sm:gap-16 gap-y-16 justify-center mt-18"
         style={{ scale: scaleProgress, opacity: opacityProgress }}
         ref={ref}
       >
