@@ -17,7 +17,7 @@ export default function header() {
           transition={{ delay: 0.2 }}
     >
       <Image 
-          src='/./flutterwave/flw.png' 
+          src='/public/flutterwave/flw.png' 
           alt='payment landing page' 
           width={600} 
           height={400}

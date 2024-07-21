@@ -70,7 +70,7 @@ export default function Body() {
          This only could be maked through the{" "}
           <span className="font-semibold">Email sended</span> To the submited email,
         </p>
-        <Image src='/./flutterwave/flwCanc.png' width={600} height={400} alt='cancel the payment flutterwave' />
+        <Image src='/public/flutterwave/flwCanc.png' width={600} height={400} alt='cancel the payment flutterwave' />
       </div>
     </div>
   );
