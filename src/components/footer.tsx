@@ -1,4 +1,5 @@
-import { Github, Linkedin, WholeWord } from "lucide-react";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import { Earth, Linkedin, X } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -20,14 +21,17 @@ export default function Footer() {
                 >About this website:</span> built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, shadcn, Framer Motion, React Email & Resend, Vercel hosting.
             </p>
         <div className="w-full flex justify-center gap-8 mt-6">
-            <Link href={''}>
-                <Github />
+            <Link href={'https://github.com/iayvob'}>
+                <GitHubLogoIcon className="size-6"/>
             </Link>
-            <Link href={''}>
-                <Linkedin />
+            <Link href={'https://www.linkedin.com/in/iayvob/'}>
+                <Linkedin className="size-6"/>
             </Link>
-            <Link href={''}>
-                <WholeWord />
+            <Link href={'https://x.com/iayvob'}>
+                <X className="size-6"/>
+            </Link>
+            <Link href={'https://iayvob.vercel.app'}>
+                <Earth className="size-6"/>
             </Link>
         </div>
         </footer>
