@@ -18,7 +18,7 @@ export default function Docs() {
   
   const [indexPage, setIndexPage] = useState(0);
 
-  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.95, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 0.75], [0.9, 1]);
 
   return (
