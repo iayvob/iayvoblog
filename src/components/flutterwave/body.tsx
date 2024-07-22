@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { CodeBlock, dracula } from "react-code-blocks";
 import { code1, code2, card } from "@/lib/flw";
+import flwCanc from "../../../public/flutterwave/flwCanc.png"
 
 export default function Body() {
   return (
@@ -70,7 +71,7 @@ export default function Body() {
          This only could be maked through the{" "}
           <span className="font-semibold">Email sended</span> To the submited email,
         </p>
-        <Image src='/public/flutterwave/flwCanc.png' width={600} height={400} alt='cancel the payment flutterwave' />
+        <Image src={flwCanc} width={600} height={400} alt='cancel the payment flutterwave' />
       </div>
     </div>
   );

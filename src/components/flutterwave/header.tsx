@@ -4,6 +4,7 @@ import SectionName from '../sectionName'
 import Image from 'next/image'
 import { content } from '@/lib/content'
 import { motion } from "framer-motion"
+import flw from "../../../public/flutterwave/flw.png"
 
 export default function header() {
   return (
@@ -17,7 +18,7 @@ export default function header() {
           transition={{ delay: 0.2 }}
     >
       <Image 
-          src='/public/flutterwave/flw.png' 
+          src={flw}
           alt='payment landing page' 
           width={600} 
           height={400}

@@ -15,7 +15,7 @@ export default function Search() {
     title: string;
     index: number;
     date: string;
-    img: string;
+    img: any;
   } | null>(null);
   const [searchPerformed, setSearchPerformed] = useState<boolean>(false);
   const [currentUrl, setCurrentUrl] = useState<string>('');
