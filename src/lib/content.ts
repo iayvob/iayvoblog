@@ -6,7 +6,7 @@ export const Url = "https://iayvoblog.vercel.app"
 export const content = [
     {
         date: "21 Jul, 24",
-        title: "Integrate Flutterwave payment in nextJS app",
+        title: "Integrate Fluterwave Payment in Web Application",
         Img: flw,
         link: `${Url}/flutterwavePayment`,
         tags:["",""],
@@ -14,9 +14,9 @@ export const content = [
     },
     {
         date: "22 Jul, 24",
-        title: "Strict Json Generate from AI Moldels",
+        title: "Generate formated Strict JSON output",
         Img: json,
-        link: `${Url}/strictJsonGenerate`,
+        link: `${Url}/AIStrictJSONGenerate`,
         tags:["",""],
         index: 1,
     }

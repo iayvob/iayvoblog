@@ -9,7 +9,7 @@ export default function Body() {
   return (
     <div className="flex flex-col gap-7 -mt-8 p-10 items-center">
       <div className="w-full flex flex-col gap-7 text-center">
-        <h1 className="font-semibold text-2xl">Who can benfit of this doc?</h1>
+        <h1 className="font-semibold text-2xl text-orange-300">Who can benfit of this doc?</h1>
         <p className="font-normal text-lg">
           This doc is dedicated for developers working with{" "}
           <span className="font-semibold">NextJS</span> using{" "}
@@ -17,7 +17,7 @@ export default function Body() {
           <span className="font-semibold underline">JavaScript</span> with{" "}
           <span className="font-semibold">ReactJS</span>, now for integrating
           this method of payment which called{" "}
-          <span className="font-semibold text-yellow-500">Flutterwave</span> you
+          <span className="font-semibold text-orange-300">Flutterwave</span> you
           need to know that there is tow method of making payment which is :{" "}
           <span className="font-semibold">Recuring Payment</span> like for
           suscreptions and payment plan, and there is type of{" "}
@@ -26,7 +26,7 @@ export default function Body() {
         </p>
       </div>
       <div className="w-full flex flex-col gap-7">
-        <h1 className="font-semibold text-2xl text-center">
+        <h1 className="font-semibold text-2xl text-center text-orange-300">
           First One Time Payment
         </h1>
         <p className="font-normal text-lg text-center">
@@ -43,7 +43,7 @@ export default function Body() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-7">
-        <h1 className="font-semibold text-2xl text-center">Recuring Payment</h1>
+        <h1 className="font-semibold text-2xl text-center text-orange-300">Recuring Payment</h1>
         <p className="font-normal text-lg text-center">
           here where we gonna make on{" "}
           <span className="font-semibold">Script</span> which make recuring
@@ -67,7 +67,7 @@ export default function Body() {
         </div>
       </div>
       <div className="w-full flex flex-col gap-7 text-center">
-        <h1 className="font-semibold text-2xl">Attention</h1>
+        <h1 className="font-semibold text-2xl text-orange-300">Attention</h1>
         <p className="font-normal text-lg">
           befor making all this try to create an account on flutterwave and if
           you want to recring payment: create plans ,and get also the id of this
@@ -77,7 +77,7 @@ export default function Body() {
         </p>
       </div>
       <div className="w-full flex flex-col gap-7 text-center justify-center">
-        <h1 className="font-semibold text-2xl">Cancellation of Subscription</h1>
+        <h1 className="font-semibold text-2xl text-orange-300">Cancellation of Subscription</h1>
         <p className="font-normal text-lg">
           This only could be maked through the{" "}
           <span className="font-semibold">Email sended</span> To the submited
