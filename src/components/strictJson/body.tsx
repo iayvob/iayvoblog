@@ -5,7 +5,7 @@ import { code1, code2 } from "@/lib/strictjson";
 
 export default function Body() {
   return (
-    <div className="flex flex-col gap-7 mt-8 p-10 items-center">
+    <div className="flex flex-col gap-7 -mt-8 p-10 items-center">
       <div className="w-full flex flex-col gap-7 text-center">
         <h1 className="font-semibold text-2xl ">Who can benfit of this doc?</h1>
         <p className="font-normal text-lg">
