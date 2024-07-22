@@ -10,14 +10,14 @@ import CopyLink from "./copyLink";
 type contentProps = (typeof content)[number];
 
 export default function Doc({ title, Img, date, link }: contentProps) {
-  
+
   return (
     <div className="flex justify-center">
       <Card className="sm:h-[30rem] sm:w-[36rem] w-[28rem] h-[26rem] p-8 !rounded-xl">
         <CardTitle className="w-full flex flex-col gap-3">
           <div className="flex gap-3 items-center">
             <Link href={link}>
-              <Button variant={"default"}>
+              <Button className="flex items-center gap-3 rounded-xl">
                 read Doc <ExternalLink />
               </Button>
             </Link>
