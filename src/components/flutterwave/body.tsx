@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { CodeBlock, dracula } from "react-code-blocks";
+import { CodeBlock, atomOneLight } from "react-code-blocks";
 import { code1, code2, card } from "@/lib/flw";
 import flwCanc from "../../../public/flutterwave/flwCanc.png"
 
@@ -35,7 +35,7 @@ export default function Body() {
           in the component:
         </p>
         <div className="md:w-[75%] lg:w-[60%]">
-          <CodeBlock theme={dracula} language="text" 
+          <CodeBlock theme={atomOneLight} language="text" 
             text={`${code1}`} />
         </div>
       </div>
@@ -49,12 +49,12 @@ export default function Body() {
           in the component:
         </p>
         <div className="md:w-[75%] lg:w-[60%]">
-          <CodeBlock theme={dracula} language="text" 
+          <CodeBlock theme={atomOneLight} language="text" 
             text={`${code2}`} />
         </div>
         <p className="font-normal text-lg">Here is a testing card</p>
         <div className="md:w-[75%] lg:w-[60%]">
-          <CodeBlock theme={dracula} language="text" 
+          <CodeBlock theme={atomOneLight} language="text" 
             text={`${card}`} />
         </div>
       </div>
